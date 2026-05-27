@@ -1,11 +1,8 @@
 function Navbar() { 
 const logoutHandler = ()=>{
-
   localStorage.removeItem(
-
     "token"
   );
-
   window.location.href = "/";
 };
 return ( 
@@ -27,15 +24,8 @@ return (
 </li> 
 </ul> 
 <a href="#practice"> 
-<button
-
-  className="nav-btn"
-
-  onClick={logoutHandler}
->
-
+<button className="nav-btn" onClick={logoutHandler}>
   Logout
-
 </button>
 </a> 
 </nav> 

@@ -7,8 +7,6 @@
   scroll-behavior:smooth;
 }
 
-/* Body */
-
 body{
 
   background:
@@ -23,16 +21,12 @@ body{
   overflow-x:hidden;
 }
 
-/* Shared Layout */
-
 section{
 
   width:100%;
 
   padding:90px 8%;
 }
-
-/* Navbar */
 
 .navbar{
 
@@ -56,8 +50,6 @@ section{
   0 4px 20px rgba(0,0,0,0.05);
 }
 
-/* Logo */
-
 .logo{
 
   font-size:32px;
@@ -66,8 +58,6 @@ section{
 
   color:#4f46e5;
 }
-
-/* Nav Links */
 
 .nav-links{
 
@@ -95,8 +85,6 @@ section{
 
   color:#4f46e5;
 }
-
-/* Navbar Button */
 
 .nav-btn{
 
@@ -143,8 +131,6 @@ section{
   min-height:90vh;
 }
 
-/* Hero Text */
-
 .hero-text{
 
   flex:1;
@@ -173,8 +159,6 @@ section{
 
   max-width:550px;
 }
-
-/* Hero Button */
 
 .hero button{
 
@@ -208,8 +192,6 @@ section{
   transform:scale(1.05);
 }
 
-/* Hero Image */
-
 .hero-image{
 
   flex:1;
@@ -233,8 +215,6 @@ section{
   0 20px 50px rgba(0,0,0,0.15);
 }
 
-/* Simulations */
-
 .simulations{
 
   text-align:center;
@@ -247,8 +227,6 @@ section{
   margin-bottom:50px;
 }
 
-/* Simulation Grid */
-
 .simulation-grid{
 
   display:grid;
@@ -258,8 +236,6 @@ section{
 
   gap:30px;
 }
-
-/* Cards */
 
 .simulation-card,
 .card{
@@ -288,8 +264,6 @@ section{
   0 15px 35px rgba(79,70,229,0.2);
 }
 
-/* Card Text */
-
 .simulation-card h3,
 .card h3{
 
@@ -307,8 +281,6 @@ section{
 
   margin-bottom:25px;
 }
-
-/* Card Button */
 
 .simulation-card button{
 
@@ -338,8 +310,6 @@ section{
   background:#4338ca;
 }
 
-/* Practice Form */
-
 .practice-form{
 
   max-width:750px;
@@ -364,8 +334,6 @@ section{
 
   font-size:40px;
 }
-
-/* Form */
 
 .practice-form form{
 
@@ -401,8 +369,6 @@ section{
   0 0 0 4px rgba(79,70,229,0.1);
 }
 
-/* Form Button */
-
 .practice-form button{
 
   background:#4f46e5;
@@ -435,8 +401,6 @@ section{
   transform:translateY(-3px);
 }
 
-/* Success Message */
-
 .success-msg{
 
   margin-top:20px;
@@ -447,8 +411,6 @@ section{
 
   font-weight:600;
 }
-
-/* Features */
 
 .features{
 
@@ -471,8 +433,6 @@ section{
 
   gap:30px;
 }
-
-/* Footer */
 
 footer{
 
@@ -500,8 +460,6 @@ footer p{
 
   color:#cbd5e1;
 }
-
-/* Responsive */
 
 @media(max-width:992px){
 
@@ -1245,8 +1203,6 @@ html{
 
   margin-left:8px;
 }
-
-/* HISTORY SECTION */
 
 .history-section{
 
