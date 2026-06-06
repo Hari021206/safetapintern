@@ -11,7 +11,7 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "safetapintern.vercel.app",
+    "https://safetapintern.vercel.app",
   ],
 }));
 app.use(express.json());
