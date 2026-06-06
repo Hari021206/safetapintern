@@ -24,7 +24,7 @@ function PracticeForm() {
     try{
       const response =
       await axios.get(
-        "http://localhost:3200/api/simulations"
+        "https://safetapintern.onrender.com/api/simulations"
       );
       setSimulations(
         response.data
@@ -48,7 +48,7 @@ function PracticeForm() {
     }
     try{
       await axios.post(
-        "http://localhost:3200/api/simulations",
+        "https://safetapintern.onrender.com/api/simulations",
         {
           title,
           category,

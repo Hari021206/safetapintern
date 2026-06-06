@@ -20,7 +20,7 @@ function Signup(){
     e.preventDefault();
     try{
       await axios.post(
-        "http://localhost:3200/api/users/register",
+        "https://safetapintern.onrender.com/api/users/register",
         {
           name,
           email,
